@@ -120,6 +120,7 @@ a:hover {
 	background-color: white;
 }
 
+/* -- Row 1 -- */ 
 
 .rowone {
 	display: flex;
@@ -162,6 +163,8 @@ a:hover {
 
 }
 
+/* -- Row 2 -- */
+
 .rowtwo {
 	display: flex;
 	justify-content: space-between;
@@ -191,6 +194,8 @@ span {
 	
 }
 
+/*-- Row 3 -- */
+
 .rowthree {
 	display: flex;
 	justify-content: space-between;
@@ -212,6 +217,32 @@ span {
 	justify-content: center;
 	height: 5rem;
 	align-items: center;
+}
+
+/*-- Media Styling Section -- */
+
+@media only screen and (max-width: 505px){
+	.sportbikeinfo h2 {
+		font-family: Helvetica;
+		font-size: 0.77rem;
+		font-weight: bold;
+	}
+
+	.sportbikeinfo h1 {
+		font-family: Helvetica;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.centerimage {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 10rem;
+	justify-content: center;
+	display: flex;
+
 }
 
 
